@@ -24,12 +24,7 @@ describe('Visualizar histórico de transações com sucesso', () => {
           cy.get('[data-test="signin-submit"]').click()
           cy.get('.MuiTab-root').eq(1).click()
           cy.get("[data-test='empty-list-header']").contains('No Transactions')
-         //cy.get('[data-test="user-onboarding-next"]').click()
-          //cy.get('#bankaccount-bankName-input').type('Bank Test')
-          //cy.get('#bankaccount-routingNumber-input').type('123456789')
-          //cy.get('#bankaccount-accountNumber-input').type('987654321')
-          //cy.get('[data-test="bankaccount-submit"]').click()
-          //cy.get('[data-test="user-onboarding-next"]').click()
+         
           
         
           
