@@ -1,5 +1,3 @@
-const passport = require("passport");
-
 describe('Login com sucesso', () => {
   
   const selectorsList = {
@@ -50,6 +48,8 @@ describe('Login com sucesso', () => {
     cy.get(selectorsList.usernameFild).type(userDate.userSuccess.username)
     cy.get(selectorsList.passwordFild).type(userDate.userSuccess.password) 
     cy.get(selectorsList.loginButton).click()
+    cy.get("[height='28px']").should('be.visible')
+
     
     
   });
