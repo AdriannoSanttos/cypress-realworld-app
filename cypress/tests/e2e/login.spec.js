@@ -1,3 +1,5 @@
+import userData from '../data/user-data.json'
+
 describe('Login com sucesso', () => {
   
   const selectorsList = {
@@ -10,18 +12,20 @@ describe('Login com sucesso', () => {
   }
 
   const userDate = {
-      userSuccess: {
-        username: "Heath93",
-        password: 's3cret'
-
-      },
-
-      userFail: {
-        username: 'Heath93', 
-        password: 's3crete'
-
-      }
+    
+    userSuccess: {
+      username: 'Heath93',
+      password: 's3cret'
+  
+    },
+  
+    userFail: {
+      username: 'Heath93', 
+      password: 's3crete'
+  
+    }
   }
+
 
   const userRegist = {
     registSucess: {
